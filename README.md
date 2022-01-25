@@ -1,6 +1,6 @@
-# sp20-cs242-assignment3
+# Github-Connections-Mobile-App
 
-- Repository for assignment 3.
+- Utilized Github's REST API to create an Android/iOS app to view user connections.
 - The mobile application is implemented with javascript and React Native
 - You will need to install React Native (and all dependencies)  to run this application.
 
