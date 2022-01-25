@@ -1,0 +1,288 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`empty response 1`] = `
+<View>
+  <Text>
+    Sorry, some error happened.
+  </Text>
+</View>
+`;
+
+exports[`invalid response 1`] = `
+<View>
+  <Text>
+    Sorry, something wrong with data.
+  </Text>
+</View>
+`;
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "padding": 20,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "https://avatars0.githubusercontent.com/u/32135636?u=bfb6dfab8f1d7d3609e4100161d5790af6cde7c0&v=4",
+      }
+    }
+    style={
+      Object {
+        "borderColor": "white",
+        "borderRadius": 75,
+        "borderWidth": 3,
+        "height": 150,
+        "overflow": "hidden",
+        "width": 150,
+      }
+    }
+  />
+  <RCTScrollView
+    style={
+      Object {
+        "flex": 1,
+        "padding": 20,
+      }
+    }
+  >
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "steelblue",
+            "fontSize": 20,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Name: 
+        <Text
+          style={
+            Object {
+              "color": "black",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "lineHeight": 35,
+            }
+          }
+        >
+          Ziyang
+        </Text>
+        
+
+        Username: 
+        <Text
+          style={
+            Object {
+              "color": "black",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "lineHeight": 35,
+            }
+          }
+        >
+          kateyeziyang
+        </Text>
+        
+
+        Bio: 
+        <Text
+          style={
+            Object {
+              "color": "black",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "lineHeight": 35,
+            }
+          }
+        >
+          This is Ziyang
+        </Text>
+        
+
+        Website: 
+        <Text
+          style={
+            Object {
+              "color": "black",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "lineHeight": 35,
+            }
+          }
+        />
+        
+
+        Email: 
+        <Text
+          style={
+            Object {
+              "color": "black",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "lineHeight": 35,
+            }
+          }
+        >
+          yeziyang1998@outlook.com
+        </Text>
+      </Text>
+      <View
+        accessibilityRole="button"
+        accessibilityStates={Array []}
+        accessible={true}
+        focusable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#007AFF",
+                  "fontSize": 18,
+                  "padding": 8,
+                  "textAlign": "center",
+                },
+              ]
+            }
+          >
+            Public Repos count: 9
+          </Text>
+        </View>
+      </View>
+      <View
+        accessibilityRole="button"
+        accessibilityStates={Array []}
+        accessible={true}
+        focusable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#007AFF",
+                  "fontSize": 18,
+                  "padding": 8,
+                  "textAlign": "center",
+                },
+              ]
+            }
+          >
+            Followers count: 0
+          </Text>
+        </View>
+      </View>
+      <View
+        accessibilityRole="button"
+        accessibilityStates={Array []}
+        accessible={true}
+        focusable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#007AFF",
+                  "fontSize": 18,
+                  "padding": 8,
+                  "textAlign": "center",
+                },
+              ]
+            }
+          >
+            Following count: 1
+          </Text>
+        </View>
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "steelblue",
+            "fontSize": 20,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Profile creation date: 
+        <Text
+          style={
+            Object {
+              "color": "black",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "lineHeight": 35,
+            }
+          }
+        >
+          2020-03-23T02:29:44Z
+        </Text>
+      </Text>
+    </View>
+  </RCTScrollView>
+</View>
+`;

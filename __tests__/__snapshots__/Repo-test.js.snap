@@ -1,0 +1,456 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`empty response 1`] = `
+<View>
+  <Text>
+    Sorry, some error happened.
+  </Text>
+</View>
+`;
+
+exports[`invalid response 1`] = `
+<View>
+  <Text>
+    Sorry, something wrong with data.
+  </Text>
+</View>
+`;
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 22,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 18,
+        "height": 44,
+        "padding": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "steelblue",
+          "fontSize": 20,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Name
+    </Text>
+     | Owner | Description 
+  </Text>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "description": "Starter code for the maze solution portion of Lab 2.",
+          "name": "Lab2",
+          "owner": Object {
+            "login": "kateyeziyang",
+          },
+        },
+        Object {
+          "description": "Project skeleton for Lab 3.",
+          "name": "Lab3",
+          "owner": Object {
+            "login": "kateyeziyang",
+          },
+        },
+        Object {
+          "description": "Wiktionary Language Learning Flashcards",
+          "name": "WiktionaryFlashCard",
+          "owner": Object {
+            "login": "nonotion",
+          },
+        },
+        Object {
+          "description": "Wiktionary Language Learning Flashcards",
+          "name": "WiktionaryFlashCard",
+          "owner": Object {
+            "login": "kateyeziyang",
+          },
+        },
+        Object {
+          "description": null,
+          "name": "Flashcards",
+          "owner": Object {
+            "login": "kateyeziyang",
+          },
+        },
+        Object {
+          "description": null,
+          "name": "facs225",
+          "owner": Object {
+            "login": "kateyeziyang",
+          },
+        },
+        Object {
+          "description": "Web Journal Recommender. FA19 CS411 project of group YeSQL",
+          "name": "yesql_app",
+          "owner": Object {
+            "login": "Keitokuch",
+          },
+        },
+        Object {
+          "description": null,
+          "name": "sp20-cs242-assignment1",
+          "owner": Object {
+            "login": "kateyeziyang",
+          },
+        },
+        Object {
+          "description": null,
+          "name": "QuadProject",
+          "owner": Object {
+            "login": "RisingStockPrices",
+          },
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+              "height": 44,
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "steelblue",
+                "fontSize": 20,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Lab2
+             
+          </Text>
+          |
+          <Text
+            onPress={[Function]}
+          >
+            kateyeziyang
+             |
+          </Text>
+          Starter code for the maze solution portion of Lab 2.
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+              "height": 44,
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "steelblue",
+                "fontSize": 20,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Lab3
+             
+          </Text>
+          |
+          <Text
+            onPress={[Function]}
+          >
+            kateyeziyang
+             |
+          </Text>
+          Project skeleton for Lab 3.
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+              "height": 44,
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "steelblue",
+                "fontSize": 20,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            WiktionaryFlashCard
+             
+          </Text>
+          |
+          <Text
+            onPress={[Function]}
+          >
+            nonotion
+             |
+          </Text>
+          Wiktionary Language Learning Flashcards
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+              "height": 44,
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "steelblue",
+                "fontSize": 20,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            WiktionaryFlashCard
+             
+          </Text>
+          |
+          <Text
+            onPress={[Function]}
+          >
+            kateyeziyang
+             |
+          </Text>
+          Wiktionary Language Learning Flashcards
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+              "height": 44,
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "steelblue",
+                "fontSize": 20,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Flashcards
+             
+          </Text>
+          |
+          <Text
+            onPress={[Function]}
+          >
+            kateyeziyang
+             |
+          </Text>
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+              "height": 44,
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "steelblue",
+                "fontSize": 20,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            facs225
+             
+          </Text>
+          |
+          <Text
+            onPress={[Function]}
+          >
+            kateyeziyang
+             |
+          </Text>
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+              "height": 44,
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "steelblue",
+                "fontSize": 20,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            yesql_app
+             
+          </Text>
+          |
+          <Text
+            onPress={[Function]}
+          >
+            Keitokuch
+             |
+          </Text>
+          Web Journal Recommender. FA19 CS411 project of group YeSQL
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+              "height": 44,
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "steelblue",
+                "fontSize": 20,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            sp20-cs242-assignment1
+             
+          </Text>
+          |
+          <Text
+            onPress={[Function]}
+          >
+            kateyeziyang
+             |
+          </Text>
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 18,
+              "height": 44,
+              "padding": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "steelblue",
+                "fontSize": 20,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            QuadProject
+             
+          </Text>
+          |
+          <Text
+            onPress={[Function]}
+          >
+            RisingStockPrices
+             |
+          </Text>
+        </Text>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
